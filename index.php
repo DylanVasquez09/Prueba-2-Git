@@ -10,5 +10,10 @@
         {
             return $this->id;
         }
+
+        public function getNombre () : string
+        {
+            return $this->nombre;
+        }
     }
 ?>

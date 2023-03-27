@@ -9,6 +9,8 @@
 
         private $email;
 
+        private $direccion;
+
         public function getId(): string
         {
             return $this->id;
@@ -26,6 +28,13 @@
         public function getEmail(): string
         {
             return $this->email;
+        }
+
+
+
+        public function getDireccion(): string
+        {
+            return $this->direccion;
         }
     }
 ?>

@@ -1,6 +1,7 @@
 <?php
 
-    class Persona {
+    class Persona 
+    {
 
         private $id;
 
@@ -8,21 +9,21 @@
 
         private $email;
 
-        public function getId () : string
+        public function getId(): string
         {
             return $this->id;
         }
 
 
 
-        public function getNombre () : string
+        public function getNombre(): string
         {
             return $this->nombre;
         }
 
 
 
-        public function getEmail () : string
+        public function getEmail(): string
         {
             return $this->email;
         }
